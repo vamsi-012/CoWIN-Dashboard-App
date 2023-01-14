@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.failure-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.failure-img {
+  width: 50%;
+}
+
+.failure-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.app-container {
+  background-color: #161625;
+  display: flex;
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  width: 40px;
+  padding-right: 10px;
+}
+
+.website-name {
+  color: #2cc6c6;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.website-caption {
+  color: #cbd5e1;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
